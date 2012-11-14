@@ -43,6 +43,7 @@ class Excelx < GenericSpreadsheet
     "yyyy\\-mm\\-dd" => :date,
     'dd/mm/yy' => :date,
     'hh:mm:ss' => :time,
+    'mm/dd/yyyy' => :date,
     "dd/mm/yy\\ hh:mm" => :datetime,
   }
   STANDARD_FORMATS = { 
